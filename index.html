@@ -1,10 +1,98 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diky Wahyudi</title>
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-    My Portopolio
+    <!-- Navbar -->
+    <div class="flex justify-between px-5 md:px-48 bg-black ">
+        <!-- Logo -->
+        <div>
+            <p class="py-5 text-white font-bold">Diky Wahyudi</p>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Menu -->
+        <div class="hidden md:block text-white font-bold">
+            <ul class="flex gap-5">
+                <li class="p-5 hover:bg-white hover:text-black">
+                    <a href="#about">About</a>
+                </li>
+                <li class="p-5 hover:bg-white hover:text-black">
+                    <a href="#about">Experiences</a>
+                </li>
+                <li class="p-5 hover:bg-white hover:text-black">
+                    <a href="#about">Projects</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of Menu -->
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Section - About -->
+    <section id="about" class="grid grid-cols-1 md:grid-cols-3 px-5 md:px-48 py-10 bg-black text-white">
+        <!-- Right Content -->
+        <div class="md:hidden">
+            Photos
+        </div>
+        <!-- End of Right Content  -->
+
+        <!-- Left Content -->
+        <div class="flex flex-col md:col-span-2 gap-10">
+            <div>
+                <p class="text-yellow-400 font-light">Fullstack Web Developer & Data Scientist</p>
+            </div>
+            <div class="flex flex-col font-bold">
+                <p class="text-yellow-400">Hi, I'm</p>
+                <p class="text-4xl">Diky Wahyudi</p>
+                <p>Undergraduate Student at Syiah Kuala University | GDSC USK Leader</p>
+            </div>
+            <div>
+                <p>College student from Syiah Kuala University major in Informatics. Interested in Artificial Intelligence and Data Science</p>
+                <p class="text-gray-300 font-thin">The only source of knowledge is experience</p>
+            </div>
+
+            <!-- Contact -->
+            <div class="flex flex-row gap-5">
+                <!-- Whatsapp -->
+                <div class="flex flex-col gap-5 bg-green-600 hover:bg-green-800 rounded-xl">
+                    <a href="https://api.whatsapp.com/send?phone=6282384400664" class="flex flex-row items-center px-6 py-2">
+                        <img src="src/images/wa_icon.png" alt="wa_icon" class="w-10">
+                        <p class="text-sm md:text-md font-bold">Let's Chat on Whatsapp</p>
+                    </a>
+                </div>
+
+                <!-- Email -->
+                <div class="flex flex-col gap-5">
+                    <a href="mailto:dikywahyudi2002@gmail.com?subject=Hello" class="flex flex-row items-center uppercase p-2 md:p-5">
+                        <p class="text-sm font-semibold text-white hover:text-gray-500">Or Send Me an email</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Contact -->
+
+        </div>
+        <!-- End of Left Content -->
+
+        <!-- Photos -->
+        <div class="hidden md:block">
+            Photos
+        </div>
+        <!-- End of Photos  -->
+
+    </section>
+    <!-- End of Section - About -->
+
+    <!--  Section - Experience -->
+    <section>
+        .
+    </section>
+    <!-- End of Experience Section - Experience -->
 </body>
+
 </html>
